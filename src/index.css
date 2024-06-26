@@ -2,9 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
-  font-family: "Epilogue", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  /* outline: 2px dashed red; */
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-variation-settings:
+	  "slnt" 0;
+}
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 80px;
+	height: 35px;
+	background: linear-gradient(to right ,hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 25px;
+	height: 25px;
+	background: hsl(232, 19%, 15%);
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: linear-gradient(to right ,hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+	background: white;
+
+}
+
+label:active:after {
+	width: 80px;
+	background: white;
+}
+
+.gradient-border {
+	position: relative;
+	padding: 1rem;
+}
+
+.gradient-border::before{
+	content: '';
+	position: absolute;
+	top: -3.6px;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 21px;
+	border-bottom-right-radius: 21px;
+	background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+	z-index: -1;
 }
