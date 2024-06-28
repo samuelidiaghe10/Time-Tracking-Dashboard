@@ -7,22 +7,26 @@ export default {
   theme: {
     extend: {
       colors: {
-                
-         'Lime-Green': 'hsl(163, 72%, 41%)',
-         'not-white': '	 #e6e6e6',
-         'Bright-Red': 'hsl(356, 69%, 56%)',
-         'Facebook': 'hsl(208, 92%, 53%)',
-         'Twitter': 'hsl(203, 89%, 53%)',
-         'YouTube': 'hsl(348, 97%, 39%)',
-         'Very-Dark-Blue-(BG)': 'hsl(230, 17%, 14%)',
-         'Very-Dark-Blue-(Top-BG-Pattern)': 'hsl(232, 19%, 15%)',
-         'Dark-Desaturated-Blue-(Card-BG)': 'hsl(228, 28%, 20%)',
-         'not-dark': '#414a71',
-         'Desaturated-Blue-(Text)': 'hsl(228, 34%, 66%)',
-         'Very-Pale-Blue-(Top-BG-Pattern)': 'hsl(225, 100%, 98%)',
-         'Light-Grayish-Blue-(Card-BG)': 'hsl(227, 47%, 96%)',
-         'Dark-Grayish-Blue-(Text)': 'hsl(228, 12%, 44%)',
-         'Very-Dark-Blue-(Text)': 'hsl(230, 17%, 14%)',
+        'Soft-red': 'hsl(7, 99%, 70%)',
+        'Yellow': 'hsl(51, 100%, 49%)',
+        'cyan2': '#70c2b0',
+        'Dark-desaturated-cyan-(graphic-design-text)': 'hsl(167, 40%, 24%)',
+        'Dark-blue-(photography-text)': 'hsl(198, 62%, 26%)',
+        'Dark-moderate-cyan-(footer)': 'hsl(168, 34%, 41%)',
+        'Very-dark-desaturated-blue': 'hsl(212, 27%, 19%)',
+        'Very-dark-grayish-blue': 'hsl(213, 9%, 39%)',
+        'Dark-grayish-blue': 'hsl(232, 10%, 55%)',
+        'Grayish-blue': 'hsl(210, 4%, 67%)',
+      },
+
+      backgroundImage: {
+
+        'head': 'url("/src/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg")',
+
+        'headMobile': 'url("/src/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg")'
+
+        
+
       }
     },
   },
