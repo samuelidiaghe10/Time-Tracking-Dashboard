@@ -6,29 +6,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        'Soft-red': 'hsl(7, 99%, 70%)',
-        'Yellow': 'hsl(51, 100%, 49%)',
-        'cyan2': '#70c2b0',
-        'Dark-desaturated-cyan-(graphic-design-text)': 'hsl(167, 40%, 24%)',
-        'Dark-blue-(photography-text)': 'hsl(198, 62%, 26%)',
-        'Dark-moderate-cyan-(footer)': 'hsl(168, 34%, 41%)',
-        'Very-dark-desaturated-blue': 'hsl(212, 27%, 19%)',
-        'Very-dark-grayish-blue': 'hsl(213, 9%, 39%)',
-        'Dark-grayish-blue': 'hsl(232, 10%, 55%)',
-        'Grayish-blue': 'hsl(210, 4%, 67%)',
+      colors: {                        
+         'Blue': 'hsl(246, 80%, 60%)',
+         'Light-red': 'hsl(15, 100%, 70%)',
+         'Soft-blue': 'hsl(195, 74%, 62%)',
+         'Bright-red': 'hsl(348, 100%, 68%)',
+         'Lime-green': 'hsl(145, 58%, 55%)',
+         'Violet': 'hsl(264, 64%, 52%)',
+         'Soft-orange': 'hsl(43, 84%, 65%)',
+         'Very-dark-blue': 'hsl(226, 43%, 10%)',
+         'Dark-blue': 'hsl(235, 46%, 20%)',
+         'Desaturated-blue': 'hsl(235, 45%, 61%)',
+         'Pale-Blue': 'hsl(236, 100%, 87%)',
       },
 
-      backgroundImage: {
-
-        'head': 'url("/src/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg")',
-
-        'headMobile': 'url("/src/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg")'
-
-        
-
-      }
-    },
   },
   plugins: [],
-}
+}}

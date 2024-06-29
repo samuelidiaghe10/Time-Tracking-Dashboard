@@ -3,43 +3,53 @@
 @tailwind utilities;
 
 
-
-*{
-    font-family: "Barlow", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-}
-
-.fraunces {
-    font-family: "Fraunces", serif;
+* {
+    font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-      "SOFT" 0,
-      "WONK" 0;
 }
 
-.logo{
-    filter: invert(30%)
-            sepia(91%) 
-            saturate(664%) 
-            hue-rotate(126deg) 
-            brightness(30%) 
-            contrast(90%);
+
+
+#Work{
+  background-color: hsl(15, 100%, 70%);
+  background-image: url("/src/time-tracking-dashboard/images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-.icon{
-    filter: invert(30%) 
-            sepia(91%) 
-            saturate(664%) 
-            hue-rotate(126deg) 
-            brightness(30%) 
-            contrast(90%);
+#Play{
+  background-image: url("/src//time-tracking-dashboard//images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: hsl(195, 74%, 62%);
 }
-  
 
-.icon:hover{
-
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(502%) contrast(102%);
+#Study{
+  background-image: url("/src//time-tracking-dashboard//images/icon-study.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: hsl(348, 100%, 68%);
 }
+
+#Exercise{
+  background-image: url("/src//time-tracking-dashboard//images/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: hsl(145, 58%, 55%);
+}
+
+#Social{
+  background-image: url("/src//time-tracking-dashboard//images/icon-social.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color:  hsl(264, 64%, 52%);
+}
+
+#Self {
+  background-image: url("/src//time-tracking-dashboard//images/icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color:  hsl(43, 84%, 65%);
+}
+
